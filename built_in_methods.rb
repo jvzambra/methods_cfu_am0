@@ -75,7 +75,6 @@ puts number.zero?
 
 total = 50
 puts total.even?
-
 # The first line declares a variable called total and assigns it the Integer 50. 
 # The second line calls the even question mark method on the total variable.
 # As a result,the method will return a return value of true since 50 is an even number.
@@ -86,3 +85,17 @@ puts total.even?
 # Call a different built-in Ruby method on each of your variables. 
 # https://ruby-doc.org/core-3.1.0/Array.html
 # Include comments above each method call explaining the impact and return value of that method.
+
+colors = ["red", "blue", "white", "black"]
+puts colors.first
+# The first line declares a variable called colors with an array of four string elements.
+# The second line calls the first method on the colors array. 
+# As a result,the method will return the first String element from the array. 
+# The puts command prints the return value of "red" to the console. 
+
+medals = ["gold", "silver", "bronze"]
+puts medals.last
+# The first line declares a variable called medals with an array of three string elements. 
+# The second line calls the last method on the medals array. 
+# As a result, the method will return the last String element from the array. 
+# The puts command prints the return value of "bronze" to the console.
