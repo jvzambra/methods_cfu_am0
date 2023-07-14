@@ -48,7 +48,17 @@
 first_name = "Jeff"
 puts first_name.start_with?("J")
 
+house = "mansion"
+puts house.upcase
+# The first line declares a variable called house and the second line calls the upcase method on the house variable. As a result,
+# The method will return a String object where any letter character in the original String will now be capitalized.
+# The puts command prints the return value of "MANSION" to the console.
 
+operating_system = "windows"
+puts operating_system.capitalize
+# The first line declares a variable called windows and the second line calls the capitalize method on the operating_system variable. As a result,
+# The method will return a String object where the first character in the original String will now be capitalized.
+# The puts command prints the return value of "Windows" to the console. 
 
 # SECTION 3: Calling methods on variables assigned to integers.
 # Declare 2 variables assigned to integer objects.
