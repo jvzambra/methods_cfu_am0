@@ -7,22 +7,31 @@
 # No arguments are passed; downcase has one clear job which is to lowercase all letters that exist in the String
 # The return value is "hello world"
 "Hello World".downcase
-
+# The downcase method is called on the string "Hello World". No arguments are passed; the method returns a string object where any letter that was capitalized in the original string will now be lowercase.
+# The return value is "hello world"
 
 "Hello World".include?("Hello")
-
+# The include method is being called on the string "Hello World".
+# The argument "Hello" is passed. 
+# This returns the value "true" as the value indicated is included in the original string.
 
 "Hello World".end_with?("Hello")
-
+# The end_with method is being called on the parameter "Hello World". 
+# The argument "Hello" is passed. 
+# This returns the value "false" as the original string does not end with "Hello".
 
 "Hello World".end_with?("rld")
-
+# The end_with method is being called on the string "Hello World".
+# The argument "rld" is passed. 
+# This returns the value "true" as the original string does end with "rld".
 
 12.even?
-
+# The even question mark method is being called on the Integer 12. 
+# The question mark returns the boolean value "true" since 12 is an even number.
 
 18.next
-
+# The next method is being called on the Integer 18. 
+# The return value is "19" since it is the integer value after 18.
 
 
 # SECTION 2: Calling methods on variables assigned to strings.
