@@ -66,7 +66,20 @@ puts operating_system.capitalize
 # https://ruby-doc.org/core-3.1.0/Integer.html
 # Include comments above each method call explaining the impact and return value of that method.
 
+number = 100
+puts number.zero?
+# The first line declares a variable called number and assigns it the Integer 100. 
+# The second line calls the zero question mark method on the number variable.
+# As a result,the method will return a return value of false since 100 is not equal to 0.
+# The puts command prints the return value of "false" to the console. 
 
+total = 50
+puts total.even?
+
+# The first line declares a variable called total and assigns it the Integer 50. 
+# The second line calls the even question mark method on the total variable.
+# As a result,the method will return a return value of true since 50 is an even number.
+# The puts command prints the return value of "false" to the console. 
 
 # SECTION 4: Calling methods on variables assigned to arrays.
 # Declare 2 variables assigned to arrays.
